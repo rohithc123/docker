@@ -9,7 +9,7 @@ RUN npm install
 
 # we have a .dockerignore fills which will ignore the node_modules folder
 COPY . .
-ENV PORT = 8000
+ENV PORT=8000
 
 EXPOSE 8000
 
